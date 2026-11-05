@@ -1,3 +1,5 @@
+<img width="1024" height="576" alt="logo-full" src="https://github.com/user-attachments/assets/1cd0e262-5493-408d-969c-e866b2779dc6" />
+
 # FluxFrame ⚡️
 
 تطبيق ويب متكامل مصمم خصيصاً لاستوديو **FluxFrame**، مبني بأحدث تقنيات **Next.js 14 (App Router)** مع **TypeScript** و **Tailwind CSS**. يدعم **اللغتين العربية والإنجليزية بالكامل** بتبديل فوري، مع تصميم راقٍ واتجاه RTL/LTR متوافق مع أعلى معايير الويب.

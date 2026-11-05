@@ -1,0 +1,15 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#0B0B0F"/>
+  
+  <!-- Motif -->
+  <g transform="translate(60, 60)">
+    <!-- Outer violet frame -->
+    <rect x="15" y="25" width="220" height="220" rx="36" fill="#0B0B0F" stroke="#7F00FF" stroke-width="16"/>
+    <!-- Inner lime frame -->
+    <rect x="60" y="60" width="190" height="190" rx="32" fill="#0B0B0F" stroke="#C6FF00" stroke-width="16"/>
+    <!-- Central triangle marker -->
+    <path d="M135 120 L180 155 L135 190 Z" fill="#F5F7FA"/>
+  </g>
+</svg>
+

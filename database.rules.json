@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "requests": {
+      ".read": true,
+      ".write": true
+    },
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+

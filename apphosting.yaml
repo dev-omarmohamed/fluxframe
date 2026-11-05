@@ -1,0 +1,16 @@
+# Firebase App Hosting configuration
+# Documentation: https://firebase.google.com/docs/app-hosting/configure
+
+runConfig:
+  minInstances: 0
+  maxInstances: 5
+  concurrency: 80
+  cpu: 1
+  memoryMiB: 1024
+
+env:
+  - variable: NEXT_PUBLIC_WHATSAPP_NUMBER
+    value: "201000000000"
+  - variable: NEXT_PUBLIC_VODAFONE_CASH
+    value: "01000000000"
+

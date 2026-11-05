@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-tajawal: 'Tajawal', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --color-ink: #0B0B0F;
+  --color-cloud: #F5F7FA;
+  --color-violet: #7F00FF;
+  --color-lime: #C6FF00;
+  --color-danger: #FF3B30;
+}
+
+body {
+  background-color: var(--color-ink);
+  color: var(--color-cloud);
+  font-family: var(--font-tajawal), var(--font-poppins), sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0B0F;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
